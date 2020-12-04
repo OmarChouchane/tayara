@@ -1,0 +1,33 @@
+.categories{
+
+}
+
+.categories>a{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.categories>i{
+    margin-right: 10px ;
+}
+
+.space{
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: #e6e6e6;
+}
+
+.footer>a{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 25px;
+    color: grey;
+}
+
+.footer>a:hover{
+    color: black;
+}

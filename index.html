@@ -6,8 +6,13 @@
     <title>tayara</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
+
+
+
 <body>
+
 
     <div>
 
@@ -16,17 +21,15 @@
 
                 <nav class="navbar navbar-light bg-light col-12">
 
-                        <div class="col-2">
-                            <img src="img/logo.svg" alt="">
-                        </div>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.svg" width="100" height="30" alt="" loading="lazy">
+                    </a>
 
                         <div class="col-6">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Chercher toutes les categories" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
-                                </div>
-                            </div>
+                            <form class="form-inline">
+                                <input class="form-control ml-5 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                              </form>
                         </div>
 
                         <div class="col-4">
@@ -63,38 +66,140 @@
                     
         </div>
 
+
     </div>
 
 
-    <!-- Modal -->
-<div class="modal fade" id="cities" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog ">
-      <div class="modal-content ">
-        <div class="modal-header bg-danger text-white ">
-          <h5 class="modal-title " id="exampleModalLabel">Definir la position</h5>
-          <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+   
+  
+
+<div class="col-12 container row pt-3">
+
+    <div class="col-3">
+        <h6>toutes les categories</h6>
+
+        <div class="categories">
+            <a href=""><i class="fas fa-home space"></i>Immobilier</a>
+            <a href=""><i class="fas fa-car space"></i>Vehicules</a>
+            <a href=""><i class="fas fa-hotel space"></i>Pour la Maison et Jardin</a>
+            <a href=""><i class="fas fa-biking space"></i>Loisirs et Divertissement</a>
         </div>
-        <div class="modal-body">
-          <div class=" pl-4 ">Ariana</div>
-          <hr>
-          <div class=" pl-4">Sousse</div>
-          <hr>
-          <div class=" pl-4">Skanes</div>
-          
-        </div>
-        <div class="modal-footer">
-          
-          <button type="button" class="btn btn-primary btn-block">confirmer</button>
-        </div>
-      </div>
+
+
     </div>
-  </div>
+
+    <div class="col-9">
+
+            <div class="col-12 row">
+
+                        <div class="col-3 mt-3"><div class="card">
+                                <img src="img/is.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
+                                </div>
+                        </div></div>
+
+
+                        <div class="col-3 mt-3"><div class="card">
+                                <img src="img/103.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                
+                                </div>
+                        </div></div>
+
+
+                        <div class="col-3 mt-3"><div class="card">
+                                <img src="img/is.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                
+                                </div>
+                        </div></div>
+
+
+                        <div class="col-3 mt-3"><div class="card">
+                                <img src="img/103.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                
+                                </div>
+                        </div></div>
+
+                        <div class="col-3 mt-3"><div class="card">
+                            <img src="img/103.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
+                            </div>
+                    </div></div>
+ 
+                    <!--    end col-12    -->
+                    
+                    <div class="container text-center pt-3">
+                        
+                        <button class="btn btn-danger btn-lg ">Montrer plus</button>
+                    </div>
+
+            </div>
+
+    </div>
+
     
+
+
+</div>
+
+<div class="text-center col-12 footer mt-5 p-3">
+    <a href="">Aide</a>
+    <a href="">Contactez-nous</a>
+    <a href="">Professionals</a>
+    <a href="">Politique</a>
+    <a href="">Publicité</a>
+    <a href="">Conditions</a>
+    <a href="">Donnés</a>
+</div>
+
+
+
+ 
+ <!-- Modal -->
+
+ <div class="modal fade" id="cities" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      
+        <div class="modal-content ">
+                <div class="modal-header bg-danger text-white ">
+                    <h5 class="modal-title ml-auto" id="exampleModalLabel">Definir la position</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+        <div class="modal-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Tunis</li>
+                        <li class="list-group-item">Sousse</li>
+                        <li class="list-group-item">Sfax</li>
+                        <li class="list-group-item">Monastir</li>
+                        <li class="list-group-item">Nabeul</li>
+                    </ul>                        
+        </div> 
+      </div>
+    </div> 
+  </div>
+
+
 </body>
 <script src="js/all.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 
 </html>
