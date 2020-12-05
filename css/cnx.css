@@ -1,0 +1,54 @@
+.starter{
+    background-image: url(../img/bgcnx.jpg);
+    
+}
+
+.card{
+    width: 25rem !important;
+    margin: auto;
+}
+
+a{
+    margin-top: 20px;
+    color: black;
+    margin-left: 10px;
+    
+}
+
+.fl:hover{
+    color: black;
+}
+
+
+h2{
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.ref{
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    width: 54px;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+.ph{
+    height: 40  px;
+}
+
+
+.ds{
+    display: inline;
+}
+
+.lock{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+button{
+    margin-top: 150px;
+}
